@@ -1,12 +1,58 @@
-h1  {
-    color: white;
+h1, h2, h3, h4, p, .special {
     text-align: center;
     font-family: helvetica;
+}
+body {
+  width="655";
+  height="637";
+}
+h1  {
+    color: white;
     font-size: 70px;
     font-weight: bold;
+    background-image: url("../img/broadway.png");
 }
-h2 {
-    font-family: helvetica;
+.special {
+    color: white;
     font-size: 18px;
     font-weight: bold;
+    text-decoration: underline;
+    list-style: none;
+     }
+h2  {
+    color: black;
+    background: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+h3 {
+    color: black;
+    background: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+h4 {
+    color: white;
+    background: white;
+    font-size: 23px;
+    font-weight: bold;
+    background-image: url("../img/broadway.png");
+}
+p {
+    color: black;
+    font-size: 18px;
+    background: white;
+}
+footer {
+    color: white;
+    background: grey;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: zoom-out;
+    font-family: helvetica;
+    text-align: left;
+}
+.menu {
+    text-decoration: underline;
+    padding: 5px;
 }
